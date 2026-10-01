@@ -1,5 +1,7 @@
 # Dashboard de Vendas no Power BI
 
+![Dashboard de Vendas](Desafio 2_Fundamentos de BI.png)
+
 Primeiro desafio do curso de Power BI da DIO. A ideia era replicar duas páginas do curso e criar a terceira do zero, treinando a criação de visuais.
 
 A página 3 traz um mapa com vendas e unidades vendidas por país, outro mapa com o lucro por país e uma pizza com o lucro por segmento. Renomeei os visuais e os campos pra ficar tudo claro e em português, e deixei as unidades vendidas na dica de ferramenta pra não poluir o mapa.

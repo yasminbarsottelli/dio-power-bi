@@ -6,6 +6,6 @@ A página 3 traz um mapa com vendas e unidades vendidas por país, outro mapa co
 
 Os dados vêm da sample financial disponibilizada no curso.
 
-Arquivos: o .pbix está nesta pasta, junto com um print do relatório.
+Arquivos: o .pbix está nesta pasta, junto com um pdf do relatório.
 
 Se quiser trocar uma ideia sobre o projeto, fica à vontade... 😊

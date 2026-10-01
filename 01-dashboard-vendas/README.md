@@ -1,6 +1,6 @@
 # Dashboard de Vendas no Power BI
 
-![Dashboard de Vendas](Desafio%202_Fundamentos%20de%20BI.png)
+[Ver relatório em PDF](Desafio%202_Fundamentos%20de%20BI.pdf)
 
 Primeiro desafio do curso de Power BI da DIO. A ideia era replicar duas páginas do curso e criar a terceira do zero, treinando a criação de visuais.
 

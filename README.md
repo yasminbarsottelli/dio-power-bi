@@ -1,13 +1,9 @@
-# dio-power-bi
+# DIO - Power BI
 
-# Dashboard de Vendas no Power BI
+Aqui ficam os projetos e desafios que fiz no curso de Power BI da DIO. Cada desafio tem a sua pasta, com o arquivo do Power BI, um print do resultado e um README explicando o que foi feito.
 
-Primeiro desafio do curso de Power BI da DIO. A ideia era replicar duas páginas do curso e criar a terceira do zero, treinando a criação de visuais.
+## Projetos
 
-A página 3 traz um mapa com vendas e unidades vendidas por país, outro mapa com o lucro por país e uma pizza com o lucro por segmento. Renomeei os visuais e os campos pra ficar tudo claro e em português, e deixei as unidades vendidas na dica de ferramenta pra não poluir o mapa.
+- [01 - Dashboard de Vendas](./01-dashboard-vendas): mapas e gráficos de vendas, lucro e unidades vendidas por país e segmento.
 
-Os dados vêm da sample financial disponibilizada no curso.
-
-Arquivos: o .pbix está nesta pasta, junto com um print do relatório.
-
-Se quiser trocar uma ideia sobre o projeto, fica à vontade... 😊
+Conforme os próximos desafios chegarem, vou adicionando por aqui... 😊

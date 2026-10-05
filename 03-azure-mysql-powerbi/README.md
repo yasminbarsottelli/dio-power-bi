@@ -8,9 +8,9 @@ O script do banco está em [`company_azure_corrigido.sql`](./company_azure_corri
 
 Servidor **Azure Database for MySQL (Servidor flexível)**, versão 8.0, criado na Azure. Rodei o script pelo Cloud Shell, liberei meu IP no firewall, conectei no MySQL Workbench e depois no Power BI pelo conector de MySQL.
 
-![Servidor na Azure](imagens/01-servidor-azure.jpg)
-![Cloud Shell](imagens/02-cloud-shell.jpg)
-![Workbench](imagens/03-workbench.jpg)
+![Servidor na Azure](01-servidor-azure.jpg)
+![Cloud Shell](02-cloud-shell.jpg)
+![Workbench](03-workbench.jpg)
 
 ## Transformações
 
@@ -33,9 +33,9 @@ Servidor **Azure Database for MySQL (Servidor flexível)**, versão 8.0, criado 
 | 15. Colaboradores por gerente | Agrupamento por Manager com contagem de linhas distintas: Franklin Wong 3, James Borg 2, Jennifer Wallace 2, sem gerente 1. |
 | 16. Colunas desnecessárias | Na employee mantive Name, Ssn, Sex, Salary, Dno, Dname, Manager, Address_City e Address_State. |
 
-![Employee](imagens/04-tipos-employee.jpg)
-![Address](imagens/05-address.jpg)
-![Colaboradores por gerente](imagens/08-agrupamento.jpg)
+![Employee](04-tipos-employee.jpg)
+![Address](05-address.jpg)
+![Colaboradores por gerente](08-agrupamento.jpg)
 
 ## Item 14: por que mesclar e não atribuir
 

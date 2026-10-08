@@ -1,0 +1,29 @@
+# Complemento do Desafio de Projeto: Relatório Financeiro com Novos Visuais e Foco na Experiência do Usuário
+
+Este é o meu último desafio da **Formação Power BI Analyst (DIO)**, um complemento ao desafio anterior. A proposta foi pegar o relatório que eu tinha construído e reformulá-lo: incluir novos gráficos, trocar visuais que já não faziam sentido e manter as três páginas de conteúdo, sempre pensando em quem vai ler o relatório.
+
+O arquivo do projeto é o `Desafio6_complemento-desafio-report-financeiro-ux.pbix`. Pra abrir, é só ter o Power BI Desktop instalado.
+
+## O que eu construí
+
+O relatório tem a página **Home**, como capa, e três páginas de conteúdo: **Sales**, **Profit** e **Report**. A base é a tabela `financials`, a mesma do curso, com vendas, lucro, unidades, segmento, produto e país entre 2013 e 2014.
+
+A **Sales** é a visão geral. Tem os cartões de Total de Vendas e Unidades Vendidas, o filtro de data, o gráfico de barras por produto com dois botões (Visão Segmento e Visão Produto) que alternam a leitura, o gráfico de área de vendas por período e a matriz por trimestre e ano.
+
+A **Profit** foca no lucro. O gráfico de dispersão cruza vendas e unidades vendidas por produto, com o tamanho da bolha representando o lucro e uma animação mês a mês. Ao lado, o Top 3 de produtos e a cascata de lucro por trimestre. O filtro de ano ficou em botões lado a lado.
+
+A **Report** traz vendas e lucro por período, um histograma de vendas por faixa de unidades, as vendas por semestre separadas por ano e um cartão com o maior número de unidades vendidas.
+
+## O que criei no modelo
+
+Pra sustentar os novos visuais, criei medidas e colunas em DAX: `total sales`, `total de vendidos`, `Máximo sold` e `TOP3 PRODUCT`, além da coluna `Semestre` e do agrupamento de `Units Sold` em 10 faixas, usado no histograma.
+
+## Experiência do usuário
+
+Mantive a paleta roxa com painéis claros e texto escuro onde o conteúdo precisa ser lido, e usei o rosa só como destaque. Cada grupo de visuais mora no seu próprio painel arredondado, o menu fica no mesmo lugar em todas as páginas e a página atual aparece marcada. Também tirei gráficos que repetiam informação, pra não deixar nenhuma tela lotada.
+
+## O que aprendi
+
+Que trocar um gráfico por outro muda o que a pessoa enxerga com o mesmo dado. O histograma, por exemplo, mostra a distribuição das vendas, algo que uma linha do tempo não mostra. Aprendi também que um visual novo quase sempre depende de uma medida ou coluna que ainda não existe no modelo.
+
+Se você tiver sugestões ou quiser trocar ideia sobre o projeto, fica à vontade pra abrir uma issue ou me chamar por aqui!

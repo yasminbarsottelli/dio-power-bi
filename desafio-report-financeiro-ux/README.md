@@ -29,9 +29,9 @@ Todas as páginas têm o mesmo menu (Início, Sales, Profit e Report). A página
 
 ## Prints
 
-![Sales](sales.png)
-![Profit](profit.png)
-![Report](report.png)
+![Sales](Sales.jpg)
+![Profit](Profit.jpg)
+![Report](Report.jpg)
 
 ## O que aprendi
 

@@ -10,5 +10,6 @@ Aqui ficam os projetos e desafios que fiz no curso de Power BI da DIO. Cada desa
 - [04 · Star Schema de Professores](04-star-schema-professor): modelagem dimensional de uma universidade com foco em professor, com tabela fato, dimensões e dimensão de data por semestre, feita no MySQL Workbench.
 - [05 · Star Schema do Financial Sample](./05-star-schema-financial-sample): modelo dimensional montado a partir de uma tabela única de vendas, com tabela fato e dimensões criadas no Power Query (chaves, tabelas por referência e agrupamento) e calendário em DAX.
 - [06 · Report Financeiro com foco na experiência do usuário](./06-desafio-report-financeiro-ux): redesenho do relatório financeiro em 4 páginas (Home, Sales, Profit e Report), com menu de navegação com hover e clique, botões que alternam gráficos, árvore de decomposição, radar, treemap e cascata.
-
+- [07 - Complemento: Relatório Financeiro com Novos Visuais e UX](./07-complemento-report-financeiro-ux): Evolução do relatório do desafio 6, com dispersão animada, Top 3 de produtos, histograma e vendas por semestre, mantendo três páginas de conteúdo e foco em contraste e organização.
+- 
 Conforme os próximos desafios chegarem, vou adicionando por aqui... 😊
